@@ -13,8 +13,6 @@ const App= () => {
         <img class="mx-auto" src="src/IMG_7618 2.jpg" alt="screenshot" />
         <p class="text-align: left"> zaire frazier</p>
       </section>
-      
-      
     </div>
   )
 }
