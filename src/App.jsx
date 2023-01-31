@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 const App= () => {
   return (
-    <Router>
     <div className="App">
       <div class="conatiner max-w-screen-sm mx-auto">
           <div ><a href="/"><p class="hover:text-red-600">HOME</p></a></div>
@@ -15,7 +13,6 @@ const App= () => {
         <p class="text-align: left"> zaire frazier</p>
       </section>
     </div>
-    </Router>
   )
 }
 export default App
